@@ -1,0 +1,14 @@
+{
+  "gallery": [
+    {
+      "alt": "Eric Cantona",
+      "id": 1,
+      "source": "/img/player.png"
+    },
+    {
+        "alt": "Ryan Gigs",
+        "id": 2,
+        "source": "/img/player1.png"
+      }
+  ]
+}
