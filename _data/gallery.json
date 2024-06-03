@@ -1,14 +1,60 @@
 {
   "gallery": [
     {
-      "alt": "Eric Cantona",
-      "id": 1,
-      "source": "/img/player.png"
+      "event": "First League Title (1908)",
+      "image": "Vintage photo of the team celebrating the first league title.",
+      "imageSource": "https://example.com/first_league_title_image.jpg",
+      "description": "Manchester United celebrates winning its first league title in 1908.",
+      "id": 1
     },
     {
-        "alt": "Ryan Gigs",
-        "id": 2,
-        "source": "/img/player1.png"
-      }
+      "event": "Opening of Old Trafford (1910)",
+      "image": "Historic image of the inauguration of Old Trafford.",
+      "imageSource": "https://example.com/old_trafford_inauguration_image.jpg",
+      "description": "Old Trafford, the iconic home ground of Manchester United, opens its doors in 1910.",
+      "id": 2
+    },
+    {
+      "event": "Munich Air Disaster (1958)",
+      "image": "Memorial photo honoring the victims of the Munich Air Disaster.",
+      "imageSource": "https://example.com/munich_air_disaster_image.jpg",
+      "description": "The Munich Air Disaster in 1958 profoundly impacted Manchester United, claiming the lives of several players and staff.",
+      "id": 3
+    },
+    {
+      "event": "European Cup Triumph (1968)",
+      "image": "Historic moment of the team lifting the European Cup.",
+      "imageSource": "https://example.com/european_cup_triumph_image.jpg",
+      "description": "Manchester United achieves European glory by winning the European Cup for the first time in 1968.",
+      "id": 4
+    },
+    {
+      "event": "The Treble (1999)",
+      "image": "Iconic photo of the team celebrating the historic Treble win.",
+      "imageSource": "https://example.com/treble_win_image.jpg",
+      "description": "Manchester United makes history by winning the Premier League, FA Cup, and UEFA Champions League in the unforgettable 1998-1999 season.",
+      "id": 5
+    },
+    {
+      "event": "Sir Alex Ferguson's Retirement (2013)",
+      "image": "Emotional moment of Sir Alex Ferguson bidding farewell.",
+      "imageSource": "https://example.com/ferguson_retirement_image.jpg",
+      "description": "Sir Alex Ferguson retires after an illustrious managerial career, leaving behind a legacy of success at Manchester United.",
+      "id": 6
+    },
+    {
+      "event": "Carabao Cup Win (2023)",
+      "image": "Memorable moment of Manchester United lifting the Carabao Cup trophy.",
+      "imageSource": "https://example.com/carabao_cup_win_image.jpg",
+      "description": "Manchester United secures victory in the Carabao Cup, marking a significant achievement in 2023.",
+      "id": 7
+    },
+    {
+      "event": "FA Cup Win (2024)",
+      "image": "Celebratory moment of Manchester United with the FA Cup trophy.",
+      "imageSource": "https://example.com/fa_cup_win_image.jpg",
+      "description": "Manchester United clinches victory in the FA Cup, adding another trophy to their collection in 2024.",
+      "id": 8
+    }
   ]
 }
