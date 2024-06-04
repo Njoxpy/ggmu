@@ -1,4 +1,4 @@
-# Manchester United History and Legacy Landing Page
+# Manchester United History and Legacy Landing Page GGMU
 
 ## Overview
 
@@ -14,7 +14,7 @@
 
 ## Technologies Used
 
-- **Next.js**: The landing page is built using Next.js, a React framework for building server-side rendered and static web applications.
+- **Next.js**: The landing page is built using Next.js `v 13.4.9`, a React framework for building server-side rendered and static web applications.
 
 - **Adobe XD**: The design for the landing page was created using Adobe XD, a vector-based design tool for creating user interfaces and prototypes.
 
@@ -22,15 +22,15 @@
 
 - Clone the repository:
 
-  ```sh
+```sh
   git clone https://github.com/Njoxpy/ggmu
-  ```
+```
 
 - Navigate to the project directory:
 
-  ```sh
+```sh
   cd ggmu
-  ```
+```
 
 - Install dependencies:
 
@@ -46,8 +46,13 @@ npm run dev
 
 - Open http://localhost:3000 in your web browser to view the landing page.
 
-
 ## Visual
+
+- Mobile View.
+
+![GGMU Ui Design](../ggmu/app/components/assets/Design/GGMU%20UI.png)
+
+## Project Structure
 
 ## Contributing
 
@@ -55,5 +60,6 @@ npm run dev
 
 ## License
 
-- This project is licensed under the MIT License.
+- [License](/license)
 
+- This project is licensed under the MIT License.
