@@ -5,22 +5,22 @@ export default function Footer() {
 
   return (
     <main>
-      <div className="bg-gray text-white p-4">
-        <Link href="Facebook" className="hover:underline p-2">
+      <div className="footerBody">
+        <Link href="Facebook" target="_blank" className="link">
           Facebook
         </Link>
-        <Link href="Facebook" className="hover:underline p-2">
+        <Link href="Facebook" target="_blank" className="link">
           Instagram
         </Link>
-        <Link href="Facebook" className="hover:underline trabsition duration-100 ease-out p-2">
+        <Link href="Facebook" target="_blank" className="link trabsition duration-100 ease-out p-2">
           Twitter
         </Link>
 
         <div>
-          <p className="text-center">© 2024 Manchester United. All rights reserved</p>
-          <p>
+          <p className="text-center pt-2">© 2024 Glory Glory Manchester United. All rights reserved</p>
+          <p className="text-center">
             Made By{" "}
-            <a href={github} target="_blank" rel="noopener noreferrer">
+            <a href={github} target="_blank" rel="noopener noreferrer" className="githubLink">
               NjoxPy
             </a>
           </p>
@@ -30,3 +30,8 @@ export default function Footer() {
     </main>
   );
 }
+
+
+/*
+- What are the examples of things I can add into the footer as ackoknoledge and credits
+*/

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Ot from "../components/assets/bg.jpg";
+import Ot from "../components/assets/hero/hero.jpg";
 
 export default function Hello() {
   return (
