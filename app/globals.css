@@ -2,26 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* header 
+- background and text
+- links hover
+*/
+
+/* bg image */
+/* .helloBg {
+  background-image: url(../app/components/assets/bg.jpg);
+  background-size: cover;
+  background-position: center;
+} */
+
+.header {
+  @apply bg-darkRed text-white;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.hover-text-link {
+  @apply hover:text-gold;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* hello section */
+
+/* Timeline section */
+
+/* Gallery */
+.gallery-heading{
+  @apply font-bold text-darkRed text-center
+}
+.image-gallery{
+  @apply rounded w-full cursor-pointer hover:shadow-lg
+}
+
+/* legends */
+
+/* footer */
+.link{
+  @apply hover:underline p-2
+}
+
+.footerBody{
+  @apply bg-gray text-white p-4 text-center
+}
+
+.githubLink{
+  @apply hover:underline hover:text-gold transition duration-100 ease-out
+}
+
+/* loading */
+.loading{
+  @apply p-8 bg-gray text-white
 }
