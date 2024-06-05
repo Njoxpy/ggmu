@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <main>
       <div className="footerBody">
-        <Link href="Facebook" target="_blank" className="link">
+        <Link href="https://www.facebook.com/manchesterunited/" target="_blank" className="link">
           Facebook
         </Link>
         <Link href="Facebook" target="_blank" className="link">

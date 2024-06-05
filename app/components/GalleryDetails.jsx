@@ -15,7 +15,7 @@ export default async function GalleryDetails() {
   return (
     <main>
       {gallery.map((gal) => (
-        <div key={gal} className='p-8 hover:shadow-lg'>
+        <div key={gallery.id} className='p-8 hover:shadow-lg hover:bg-gold hover:text-white hover:border-l-gold'>
             <h3 className='font-bold text-center'>{gal.event}</h3>
             <h4 className=''>{gal.image}</h4>
             <p className='cursor-pointer'>{gal.description}</p>

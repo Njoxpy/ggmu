@@ -45,8 +45,6 @@ const images = [
     src: "../components/assets/gallery/carabao cup champions 2024.webp",
     alt: "Old Trafford",
   },
-  // carabo.webp carabao 2
-  // fa cup 2024
   {
     src: "../components/assets/gallery/fa champions 2024.webp",
     alt: "Old Trafford",
@@ -64,13 +62,6 @@ const Gallery = () => {
           Iconic Moments in Manchester United History
         </h2>
         <p className="p-2 text-gray">{subtitle}</p>
-        <div className="">
-          <Image
-            // src={legend1}
-            alt="FA Cup Champions"
-            className="image-gallery"
-          />
-        </div>
       </div>
       <div>
         <GalleryDetails />

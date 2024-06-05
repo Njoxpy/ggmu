@@ -1,0 +1,76 @@
+{
+  "legendsProfile": [
+    {
+      "src": "./assets/legends/George-Best.jpg",
+      "playerName": "George Best",
+      "position": "Forward",
+      "contribution": "One of the greatest dribblers in the history of football."
+    },
+    {
+      "src": "image path",
+      "playerName": "Sir Bobby Charlton",
+      "position": "Forward/Midfielder",
+      "contribution": "All-time leading goalscorer for Manchester United and England."
+    },
+    {
+      "src": "image path",
+      "playerName": "Eric Cantona",
+      "position": "Forward",
+      "contribution": "Iconic figure who played a pivotal role in United's resurgence in the 1990s."
+    },
+    {
+      "src": "image path",
+      "playerName": "Ryan Giggs",
+      "position": "Midfielder",
+      "contribution": "Most decorated player in English football history, serving United for over two decades."
+    },
+    {
+      "src": "image path",
+      "playerName": "Roy Keane",
+      "position": "Midfielder",
+      "contribution": "Inspirational captain known for his leadership and tenacity on the field."
+    },
+    {
+      "src": "image path",
+      "playerName": "Paul Scholes",
+      "position": "Midfielder",
+      "contribution": "Regarded as one of the greatest midfielders of his generation."
+    },
+    {
+      "src": "image path",
+      "playerName": "David Beckham",
+      "position": "Midfielder",
+      "contribution": "Renowned for his crossing ability and set-piece prowess."
+    },
+    {
+      "src": "image path",
+      "playerName": "Wayne Rooney",
+      "position": "Forward/Midfielder",
+      "contribution": "Manchester United's all-time leading goalscorer."
+    },
+    {
+      "src": "image path",
+      "playerName": "Cristiano Ronaldo",
+      "position": "Forward",
+      "contribution": "Prolific goalscorer and one of the greatest footballers of all time."
+    },
+    {
+      "src": "image path",
+      "playerName": "Denis Law",
+      "position": "Forward",
+      "contribution": "Scored 237 goals for Manchester United, including a crucial role in their European Cup win."
+    },
+    {
+      "src": "image path",
+      "playerName": "Sir Matt Busby",
+      "position": "Manager",
+      "contribution": "Led United to their first European Cup triumph in 1968."
+    },
+    {
+      "src": "image path",
+      "playerName": "Sir Alex Ferguson",
+      "position": "Manager",
+      "contribution": "Most successful manager in Manchester United's history, winning numerous domestic and international titles."
+    }
+  ]
+}

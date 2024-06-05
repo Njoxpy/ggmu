@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-// image
+// image(logo)
 import logo from "../components/assets/logo/logo.png";
 
 export default function Navbar() {
@@ -17,7 +17,7 @@ export default function Navbar() {
         />
         <div>
           <div>
-            <p>
+            <p className="lg:hidden">
               <svg
                 data-slot="icon"
                 fill="none"

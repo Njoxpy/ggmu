@@ -27,29 +27,56 @@
 /* Timeline section */
 
 /* Gallery */
-.gallery-heading{
-  @apply font-bold text-darkRed text-center
+.gallery-heading {
+  @apply font-bold text-darkRed text-center;
 }
-.image-gallery{
-  @apply rounded w-full cursor-pointer hover:shadow-lg
+.image-gallery {
+  @apply rounded w-full cursor-pointer hover:shadow-lg;
 }
 
 /* legends */
+.legend-card {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.legend-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.legend-card h2 {
+  font-size: 1.5rem;
+}
+
+.legend-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.legend-card p {
+  font-size: 1rem;
+  color: #666666;
+}
 
 /* footer */
-.link{
-  @apply hover:underline p-2
+.link {
+  @apply hover:underline p-2;
 }
 
-.footerBody{
-  @apply bg-gray text-white p-4 text-center
+.footerBody {
+  @apply bg-gray text-white p-4 text-center;
 }
 
-.githubLink{
-  @apply hover:underline hover:text-gold transition duration-100 ease-out
+.githubLink {
+  @apply hover:underline hover:text-gold transition duration-100 ease-out;
 }
 
 /* loading */
-.loading{
-  @apply p-8 bg-gray text-white
+.loading {
+  @apply p-8 bg-gray text-white;
 }
