@@ -9,10 +9,10 @@ export default function Footer() {
         <Link href="https://www.facebook.com/manchesterunited/" target="_blank" className="link">
           Facebook
         </Link>
-        <Link href="Facebook" target="_blank" className="link">
+        <Link href="https://www.instagram.com/manchesterunited/" target="_blank" className="link">
           Instagram
         </Link>
-        <Link href="Facebook" target="_blank" className="link trabsition duration-100 ease-out p-2">
+        <Link href="https://x.com/ManUtd" target="_blank" className="link trabsition duration-100 ease-out p-2">
           Twitter
         </Link>
 
