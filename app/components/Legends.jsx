@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 // images
 import george from "./assets/legends/George-Best.jpg";
@@ -13,7 +14,6 @@ import ferguson from "./assets/legends/Sir Alex Ferguson.jpg";
 import busby from "./assets/legends/Sir Matt Busby.webp";
 import charlton from "./assets/legends/Sir-Bobby-Charlton.jpg";
 import rooney from "./assets/legends/Wayne-Rooney.jpg";
-import Image from "next/image";
 
 const legendsProfile = [
   {
@@ -105,12 +105,14 @@ export default function Legends() {
         <h3 className="text-darkRed font-bold text-center">Hall of Fame</h3>
         {legendsProfile.map((legend) => (
           <div key={legend.playerName} className="legend-card border-gold">
-            <img
+            <Image
               src={legend.src}
               alt={legend.playerName}
               className="legend-image"
+              layout="responsive"
+              width={300}
+              height={300}
             />
-            <img src={legend.src} alt={legend.playerName} className="legend-image" />
             <h2 className="text-darkRed font-bold">{legend.playerName}</h2>
             <h3 className="text-black font-light">{legend.position}</h3>
             <p className="text-black">{legend.contribution}</p>
