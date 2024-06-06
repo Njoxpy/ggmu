@@ -102,22 +102,24 @@ export default function Legends() {
   return (
     <main>
       <div className="p-8 bg-lightGray">
-        <h3 className="text-darkRed font-bold text-center">Hall of Fame</h3>
-        {legendsProfile.map((legend) => (
-          <div key={legend.playerName} className="legend-card border-gold">
-            <Image
-              src={legend.src}
-              alt={legend.playerName}
-              className="legend-image"
-              layout="responsive"
-              width={300}
-              height={300}
-            />
-            <h2 className="text-darkRed font-bold">{legend.playerName}</h2>
-            <h3 className="text-black font-light">{legend.position}</h3>
-            <p className="text-black">{legend.contribution}</p>
-          </div>
-        ))}
+        <h3 className="text-darkRed font-bold text-center text-3xl mb-8">Hall of Fame</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {legendsProfile.map((legend) => (
+            <div key={legend.playerName} className="legend-card border-2 border-gold p-4 rounded-md shadow-md bg-white">
+              <Image
+                src={legend.src}
+                alt={legend.playerName}
+                className="legend-image rounded-md mb-4"
+                layout="responsive"
+                width={300}
+                height={300}
+              />
+              <h2 className="text-darkRed font-bold text-xl">{legend.playerName}</h2>
+              <h3 className="text-black font-light text-lg">{legend.position}</h3>
+              <p className="text-black mt-2">{legend.contribution}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </main>
   );
