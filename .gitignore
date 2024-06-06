@@ -41,3 +41,7 @@ next-env.d.ts
 .*txt
 colors.txt
 done.txt
+
+# js
+Gallery.jsx
+GalleryDetails.jsx

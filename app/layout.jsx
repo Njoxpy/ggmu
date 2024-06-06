@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <Hero />
         <Timeline />
-        <Gallery />
+        {/* <Gallery /> */}
         <Legends />
         <Footer />
         {children}
